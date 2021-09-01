@@ -45,15 +45,44 @@ table {
 
 html{
     font-size:62.5%; /* 1 rem = 10px */
-    font-family: 'Roboto Mono', monospace;
   }
 
 * {
     box-sizing: border-box;
-    border: 1px solid;
-
+    border: 1px solid; /* delete this after testing */
   }
 
+body{
+    font-family: 'Roboto Mono', monospace;
+
+}
 h1 {
     font-family: 'Chelsea Market', cursive;
   }
+
+/* nav buttons */
+nav {
+    text-align: center;
+}
+
+nav a {
+    display:inline-block;
+    padding:1% 1%;
+    margin: 5%;
+    width:8%;
+    height: 4.5rem;
+    border-radius:10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    line-height: 1.25rem;
+}
+a.button-plan {
+    background-color: #FF764E;
+}
+a.button-about {
+    background-color: #5ED3EB;
+}
+a.button-get {
+    background-color: #FFCD69;
+}
