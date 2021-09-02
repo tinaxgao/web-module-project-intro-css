@@ -50,6 +50,7 @@ html{
 * {
     box-sizing: border-box;
     /* border: 1px solid; delete this after testing */
+    max-width: 100%;
   }
 
 body{
@@ -61,36 +62,38 @@ body{
 /* nav buttons */
 nav {
     text-align: center;
+    padding: 2% 0;
 }
 
 nav a {
     display:inline-block;
     border-radius:10px;
-    padding:1% 1%;
-    margin: 5%;
-    max-width:10%;
+    padding:1% 0;
+    width:10%;
     height: 4.5rem;
     text-align: center;
     text-decoration: none;
     font-size: 1.25rem;
     color: white;
-    line-height: 1.25rem;
+ 
 }
 a.button-plan {
     background-color: #FF764E;
+    margin-left: 10%;
 }
 a.button-about {
     background-color: #5ED3EB;
+    margin: 0 20%;
 }
 a.button-get {
     background-color: #FFCD69;
+    margin-right: 10%;
 }
 
 header{
     max-width: 70%;
     margin: auto;
     text-align: center;
-    vertical-align: middle;
 }
 
 h1 {
